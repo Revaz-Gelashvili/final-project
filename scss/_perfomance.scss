@@ -1,0 +1,36 @@
+.section-3 {
+  margin-top: 131px;
+  .perfomance {
+    .title {
+      h3 {
+        font-size: 1.7rem;
+        letter-spacing: 3px;
+      }
+
+      p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        line-height: 25px;
+      }
+    }
+    .perfomance-img {
+      background-image: url(../images/perfomance-img.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      max-width: 630px;
+      height: 436px;
+
+      @media (max-width: 1024px) {
+        max-width: 450px;
+        height: 400px;
+      }
+
+      @media (max-width: 768px) {
+        height: 300px;
+        max-width: 100%;
+      }
+    }
+  }
+}

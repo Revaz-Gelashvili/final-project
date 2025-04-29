@@ -1,0 +1,36 @@
+.section-4 {
+  margin-top: 131px;
+  .brilliance {
+    .title {
+      h3 {
+        font-size: 1.7rem;
+        letter-spacing: 3px;
+      }
+
+      p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        line-height: 25px;
+      }
+    }
+    .brilliance-img {
+      background-image: url(../images/brilliance-img.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      max-width: 630px;
+      height: 420px;
+
+      @media (max-width: 1024px) {
+        max-width: 450px;
+        height: 400px;
+      }
+
+      @media (max-width: 768px) {
+        height: 300px;
+        max-width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+header {
+  background-color: $primaryBackgroundColor;
+  filter: $filterBlur;
+  height: 100px;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+
+  nav {
+    ul {
+      li {
+        .menu-toggle {
+          background-image: url(../images/menu.svg);
+          width: 20px;
+          height: 20px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.section-1 {
+  background-image: url(../images/air-x-2-section-background.png);
+  height: 918px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 768px) {
+    background-size: 100%;
+    height: 600px;
+  }
+
+  @media (max-width: 576px) {
+    background-size: 100%;
+    height: 350px;
+  }
+}

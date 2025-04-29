@@ -1,0 +1,44 @@
+section {
+  .content {
+    margin-top: 83px;
+    width: 750px;
+
+    h3 {
+      letter-spacing: 15px;
+    }
+
+    p {
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  section {
+    .content {
+      margin-top: 25px;
+
+      h3 {
+        font-size: 1rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  section {
+    .content {
+      h3 {
+        font-size: 0.8rem;
+      }
+
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
