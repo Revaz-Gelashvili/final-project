@@ -1,0 +1,44 @@
+.section-12 {
+  height: 600px;
+  .footer {
+    .card {
+      max-width: 380px;
+      width: 100%;
+      height: 540px;
+      background-color: $primaryBackgroundColor;
+      border: 0px;
+
+      .footer-img1 {
+        background-image: url(../images/footer-brilliance-img.png);
+      }
+      .footer-img2 {
+        background-image: url(../images/footer-technology-img.png);
+      }
+      .footer-img3 {
+        background-image: url(../images/footer-style-img.png);
+      }
+
+      .footer-img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 302px;
+      }
+
+      .description {
+        padding: 30px 0px;
+        h3 {
+          font-size: 1.5rem;
+          letter-spacing: 2px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 1rem;
+          letter-spacing: 1px;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+}

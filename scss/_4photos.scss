@@ -1,0 +1,61 @@
+.section-9 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  .photos {
+    .photo-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      .img1 {
+        background-image: url(../images/AirXgalleryImg01.png);
+      }
+      .img2 {
+        background-image: url(../images/AirXgalleryImg02.png);
+      }
+      .img3 {
+        background-image: url(../images/AirXgalleryImg03.png);
+      }
+      .img4 {
+        background-image: url(../images/AirXgalleryImg04.png);
+      }
+
+      .img1,
+      .img2,
+      .img3,
+      .img4 {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: calc(50% - 16px);
+        height: 277px;
+      }
+    }
+  }
+}
+
+.section-10 {
+  background-image: url(../images/background-image-footer.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 768px) {
+    height: 400px;
+  }
+}
+
+.section-11 {
+  margin-top: 110px;
+  margin-bottom: 110px;
+
+  div {
+    width: 700px;
+
+    p {
+      font-size: 18px;
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+  }
+}
