@@ -12,6 +12,6 @@ window.addEventListener("load", () => {
       sidebar.classList.remove("active");
     });
   } else {
-    console.warn("Один или несколько элементов не найдены в DOM.");
+    console.warn("One or more elements are missing in the DOM.");
   }
 });
