@@ -17,5 +17,10 @@ window.addEventListener("load", () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-  AOS.init();
+  AOS.init({
+    disable: function () {
+      return window.innerWidth < 576;
+    },
+    once: true,
+  });
 });
