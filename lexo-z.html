@@ -17,8 +17,10 @@
 
     <script src="./js/script.js" defer></script>
     <link rel="stylesheet" href="./css/style.css" />
-
-    <title>Document</title>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Lexo Z</title>
   </head>
   <body>
     <header class="d-flex justify-content-center align-items-center">
@@ -95,6 +97,7 @@
     <section class="section-2 d-flex justify-content-center align-items-center">
       <div
         class="container-md content air-x-title text-white text-center d-flex flex-column justify-content-center align-items-center"
+        data-aos="zoom-in"
       >
         <h3 class="fs-2 mb-5 fw-4">LEXO Z</h3>
         <p class="fs-6 fw-4">
@@ -113,6 +116,7 @@
       >
         <div
           class="title text-white d-flex flex-column text-center text-md-start justify-content-center col-xl-4 col-lg-3 col-md-4"
+          data-aos="fade-right"
         >
           <h3 class="mb-5">Unmatched Perfomance</h3>
           <p>
@@ -121,7 +125,10 @@
             acceleration.
           </p>
         </div>
-        <div class="perfomance-img lezo-section-3-img mt-5 mt-md-0"></div>
+        <div
+          class="perfomance-img lezo-section-3-img mt-5 mt-md-0"
+          data-aos="fade-left"
+        ></div>
       </div>
     </section>
 
@@ -133,9 +140,11 @@
       >
         <div
           class="brilliance-img lexo-section-4-img mt-5 mt-md-0 col-md-6"
+          data-aos="fade-right"
         ></div>
         <div
           class="title col-md-4 text-white d-flex flex-column text-center text-md-start justify-content-center"
+          data-aos="fade-left"
         >
           <h3 class="mb-5">Unrivaled Brilliance</h3>
           <p>
@@ -167,24 +176,41 @@
     <section class="section-6 d-flex justify-content-center">
       <div class="box container d-flex justify-content-between row">
         <div class="elevating-perfomance col-md-5">
-          <div class="elevating-perfomance-img lexo-section-6-img-1"></div>
-          <h3 class="fw-4 text-white text-center mb-5">Elevating Perfomance</h3>
-          <p class="fw-4 text-white text-center mb-5 mb-md-0">
+          <div
+            class="elevating-perfomance-img lexo-section-6-img-1"
+            data-aos="fade-right"
+          ></div>
+          <h3 class="fw-4 text-white text-center mb-5" data-aos="fade-right">
+            Elevating Perfomance
+          </h3>
+          <p
+            class="fw-4 text-white text-center mb-5 mb-md-0"
+            data-aos="fade-right"
+          >
             Our relentless commitment to engineering excellence ensures that
             each ride is an electrifying adventure.
           </p>
-          <div class="speed-img lexo-section-6-img-2"></div>
+          <div
+            class="speed-img lexo-section-6-img-2"
+            data-aos="fade-right"
+          ></div>
         </div>
         <div class="impeccable-design col-md-5">
-          <div class="impeccable-design-img lexo-section-6-img-3"></div>
-          <h3 class="fw-4 text-white text-center mb-5">
+          <div
+            class="impeccable-design-img lexo-section-6-img-3"
+            data-aos="fade-left"
+          ></div>
+          <h3 class="fw-4 text-white text-center mb-5" data-aos="fade-left">
             Impeccable <span>Design</span>
           </h3>
-          <p class="fw-4 text-white text-center">
+          <p class="fw-4 text-white text-center" data-aos="fade-left">
             Our design philosophy is rooted in sophistication, elegance, and
             seamless integration of technology.
           </p>
-          <div class="charge-img lexo-section-6-img-4"></div>
+          <div
+            class="charge-img lexo-section-6-img-4"
+            data-aos="fade-left"
+          ></div>
         </div>
       </div>
     </section>
@@ -197,6 +223,7 @@
       >
         <div
           class="option col-lg-2 col-md-6 col-sm-6 d-flex flex-column mb-md-5 mb-ms-5 mb-5 mb-lg-0 text-center"
+          data-aos="fade-up"
         >
           <p>Max Power</p>
           <h3 class="my-4">1200+</h3>
@@ -204,6 +231,7 @@
         </div>
         <div
           class="option col-lg-2 col-md-6 col-sm-6 d-flex flex-column mb-md-5 mb-ms-5 mb-5 mb-lg-0 text-center"
+          data-aos="fade-down"
         >
           <p>EPA estimated range up to</p>
           <h3 class="my-4">516</h3>
@@ -211,6 +239,7 @@
         </div>
         <div
           class="option col-lg-2 col-md-6 col-sm-6 d-flex flex-column mt-md-0 mt-ms-5 mt-lg-0 text-center"
+          data-aos="fade-up"
         >
           <p>minutes to charge 200 miles</p>
           <h3 class="my-4">12</h3>
@@ -218,6 +247,7 @@
         </div>
         <div
           class="option col-lg-2 col-md-6 col-sm-6 d-flex flex-column mt-5 mt-sm-0 text-center"
+          data-aos="fade-down"
         >
           <p>0-60 mph</p>
           <h3 class="my-4">&lt;2</h3>
@@ -229,9 +259,10 @@
       <div
         class="container specifications text-white align-items-center d-flex justify-content-between row"
       >
-        <div class="car-img"></div>
+        <div class="car-img" data-aos="zoom-in"></div>
         <div
           class="options d-flex flex-column align-items-center justify-content-center col-12 col-lg-4"
+          data-aos="fade-left"
         >
           <div class="title text-center mb-5">
             <h3 class="fs-4">Model Air X Specifications</h3>
@@ -279,17 +310,17 @@
       </h1>
       <div class="container-sm photos mt-5">
         <div class="row photo-list justify-content-center">
-          <div class="img1 lexo-section-9-img-1"></div>
-          <div class="img2 lexo-section-9-img-2"></div>
-          <div class="img3 lexo-section-9-img-3"></div>
-          <div class="img4 lexo-section-9-img-4"></div>
+          <div class="img1 lexo-section-9-img-1" data-aos="fade-left"></div>
+          <div class="img2 lexo-section-9-img-2" data-aos="fade-right"></div>
+          <div class="img3 lexo-section-9-img-3" data-aos="fade-left"></div>
+          <div class="img4 lexo-section-9-img-4" data-aos="fade-right"></div>
         </div>
       </div>
     </section>
     <section class="section-10 lexo-section-10-img mt-5"></section>
     <section class="section-11 d-flex justify-content-center text-center">
       <div class="container">
-        <p class="text-white">
+        <p class="text-white" data-aos="zoom-in">
           At Hyperdash, we believe that true luxury lies in the harmony of power
           and grace. The Air X encapsulates this philosophy, boasting a sleek
           and aerodynamic design that commands attention on every road it
@@ -299,7 +330,7 @@
     </section>
     <section class="section-12 d-flex justify-content-center">
       <div class="container justify-content-center footer row">
-        <div class="card col-12 col-md-4">
+        <div class="card col-12 col-md-4" data-aos="fade-right">
           <div class="footer-img1 footer-img lexo-gravity-footer-img-1"></div>
           <div class="description text-white">
             <h3>Unrivaled Brilliance</h3>
@@ -309,7 +340,7 @@
             </p>
           </div>
         </div>
-        <div class="card col-12 col-md-4">
+        <div class="card col-12 col-md-4" data-aos="fade-right">
           <div class="footer-img2 footer-img lexo-gravity-footer-img-2"></div>
           <div class="description text-white">
             <h3>Technology Perfected</h3>
@@ -319,7 +350,7 @@
             </p>
           </div>
         </div>
-        <div class="card col-12 col-md-4">
+        <div class="card col-12 col-md-4" data-aos="fade-right">
           <div class="footer-img3 footer-img lexo-gravity-footer-img-3"></div>
           <div class="description text-white">
             <h3>Safety with Style</h3>

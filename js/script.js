@@ -15,3 +15,7 @@ window.addEventListener("load", () => {
     console.warn("One or more elements are missing in the DOM.");
   }
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  AOS.init();
+});
