@@ -6,17 +6,43 @@
       display: flex;
       flex-wrap: wrap;
       gap: 16px;
-      .img1 {
+      .air-section-9-img-1 {
         background-image: url(../images/AirXgalleryImg01.png);
       }
-      .img2 {
+      .air-section-9-img-2 {
         background-image: url(../images/AirXgalleryImg02.png);
       }
-      .img3 {
+      .air-section-9-img-3 {
         background-image: url(../images/AirXgalleryImg03.png);
       }
-      .img4 {
+      .air-section-9-img-4 {
         background-image: url(../images/AirXgalleryImg04.png);
+      }
+
+      .lexo-section-9-img-1 {
+        background-image: url(../images/lezo-x/lexo-section-9-img-1.png);
+      }
+      .lexo-section-9-img-2 {
+        background-image: url(../images/lezo-x/lexo-section-9-img-2.png);
+      }
+      .lexo-section-9-img-3 {
+        background-image: url(../images/lezo-x/lexo-section-9-img-3.png);
+      }
+      .lexo-section-9-img-4 {
+        background-image: url(../images/lezo-x/lexo-section-9-img-4.png);
+      }
+
+      .gravity-section-9-img-1 {
+        background-image: url(../images/gravity-9/gravity-section-9-img-1.png);
+      }
+      .gravity-section-9-img-2 {
+        background-image: url(../images/gravity-9/gravity-section-9-img-2.png);
+      }
+      .gravity-section-9-img-3 {
+        background-image: url(../images/gravity-9/gravity-section-9-img-3.png);
+      }
+      .gravity-section-9-img-4 {
+        background-image: url(../images/gravity-9/gravity-section-9-img-4.png);
       }
 
       .img1,
@@ -34,7 +60,6 @@
 }
 
 .section-10 {
-  background-image: url(../images/background-image-footer.png);
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,6 +68,18 @@
   @media (max-width: 768px) {
     height: 400px;
   }
+}
+
+.air-section-10-img {
+  background-image: url(../images/background-image-footer.png);
+}
+
+.lexo-section-10-img {
+  background-image: url(../images/lezo-x/lexo-section-10-img.png);
+}
+
+.gravity-section-10-img {
+  background-image: url(../images/gravity-9/gravity-section-10-img.png);
 }
 
 .section-11 {

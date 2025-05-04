@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="d-flex justify-content-center align-items-center">
+      <nav
+        class="row container-fluid d-flex justify-content-between align-items-center py-3"
+      >
+        <ul
+          class="col-xxl-3 ps-xxl-5 ps-0 col-lg-3 col-md-4 d-none d-md-flex nav-list justify-content-between align-items-center"
+        >
+          <li><a class="text-white fw-4" href="./index.html">Air X</a></li>
+          <li><a class="text-white fw-4" href="./lexo-z.html">Lexo Z</a></li>
+          <li>
+            <a class="text-white fw-4" href="./gravity-9.html">Gravity 9</a>
+          </li>
+        </ul>
+        <div
+          class="col-xxl-6 logo col-lg-6 col-md-4 col-5 d-flex justify-content-center align-items-center"
+        >
+          <a href="#"><img src="./images/logo.png" alt="logo" /></a>
+        </div>
+        <ul
+          class="col-xxl-3 pe-xxl-5 pe-0 col-lg-3 col-md-4 col-4 nav-list d-flex justify-content-between align-items-center fs-6"
+        >
+          <li>
+            <a class="text-white d-none d-sm-block fw-4" href="#">Shop</a>
+          </li>
+          <li>
+            <a class="text-white d-none d-sm-block fw-4" href="#">Account</a>
+          </li>
+          <li>
+            <div class="menu-toggle"></div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div
+      class="sidebar p-5 d-flex flex-column justify-content-between position-fixed"
+    >
+      <div class="header d-flex justify-content-end">
+        <button class="close-btn"></button>
+      </div>
+      <ul class="nav-links fs-5 fw-bold">
+        <li class="my-4"><a href="index.html">Air X</a></li>
+        <li class="my-4"><a href="lexo-z.html">Levo Z</a></li>
+        <li class="my-4"><a href="gravity-9.html">Gravity 9</a></li>
+        <li class="my-4"><a href="#">Test Drive</a></li>
+        <li class="my-4"><a href="#">Studio Locator</a></li>
+        <li class="my-4"><a href="#">Design Yours</a></li>
+      </ul>
+      <ul class="secondary-links fs-6">
+        <li class="my-4"><a href="#">Awards</a></li>
+        <li class="my-4"><a href="#">Stories</a></li>
+        <li class="my-4"><a href="#">Career</a></li>
+        <li class="my-4"><a href="#">Company</a></li>
+      </ul>
+      <div class="footer">
+        <a href="#" class="legal d-block mb-5">Legal</a>
+        <div class="social-icons d-flex gap-4">
+          <a href="#"><i class="icon icon-linkedin"></i></a>
+          <a href="#"><i class="icon icon-twitter"></i></a>
+          <a href="#"><i class="icon icon-instagram"></i></a>
+          <a href="#"><i class="icon icon-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    <section
+      class="test-drive-background d-flex justify-content-center align-items-center"
+    >
+      <div
+        class="p-4 mt-5 test-drive-reg fw-light d-flex flex-column justify-content-center text-white"
+      >
+        <h2 class="fs-4 mt-3 mb-4 fw-bold">Book a test drive</h2>
+        <p class="mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna.
+        </p>
+
+        <form class="d-flex flex-column">
+          <label for="full-name" class="form-label">Full Name</label>
+          <input
+            type="text"
+            id="full-name"
+            name="full-name"
+            required
+            class="form-control mb-3"
+            placeholder="Your Name"
+          />
+
+          <label for="phone-number" class="form-label">Phone Number</label>
+          <input
+            type="tel"
+            id="phone-number"
+            name="phone-number"
+            required
+            class="form-control mb-3"
+            placeholder="Your Phone Number"
+          />
+
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            class="form-control mb-3"
+            placeholder="Your Email"
+          />
+
+          <label for="postal-code" class="form-label">Postal Code</label>
+          <input
+            type="text"
+            id="postal-code"
+            name="postal-code"
+            required
+            class="form-control mb-3"
+            placeholder="Your Postal Code"
+          />
+
+          <div class="terms mt-2 fw-light">
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">Accept Terms and Conditions</label>
+          </div>
+
+          <button type="submit" class="button m-auto mt-4">SUBMIT</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
